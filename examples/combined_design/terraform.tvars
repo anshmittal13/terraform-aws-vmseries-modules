@@ -8,7 +8,7 @@ global_tags = {
   Owner       = "PS Team"
 }
 
-ssh_key_name = "example-ssh-key" # TODO: update here
+ssh_key_name = "ansh-key" # TODO: update here
 
 ### VPC
 vpcs = {
@@ -489,10 +489,10 @@ vmseries = {
     bootstrap_options = {
       mgmt-interface-swap         = "enable"
       plugin-op-commands          = "panorama-licensing-mode-on,aws-gwlb-inspect:enable,aws-gwlb-overlay-routing:enable" # TODO: update here
-      panorama-server             = "10.255.0.10"                                                                        # TODO: update here
-      auth-key                    = ""                                                                                   # TODO: update here
-      dgname                      = "combined"                                                                           # TODO: update here
-      tplname                     = "combined-stack"                                                                     # TODO: update here
+      panorama-server             = "138.91.52.90"                                                                        # TODO: update here
+      auth-key                    = "_AQ__UNi0qUHCa4lILJSrMktaJ0_c7W"                                                                                   # TODO: update here
+      dgname                      = "test-dg"                                                                           # TODO: update here
+      tplname                     = "test-stack"                                                                     # TODO: update here
       dhcp-send-hostname          = "yes"                                                                                # TODO: update here
       dhcp-send-client-id         = "yes"                                                                                # TODO: update here
       dhcp-accept-server-hostname = "yes"                                                                                # TODO: update here
